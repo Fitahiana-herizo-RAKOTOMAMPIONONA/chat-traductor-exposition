@@ -7,25 +7,27 @@ import Testimonials from './section/testimonials.section';
 import Navigation from './components/navbar';
 
 function App() {
-
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-50">
-      {/* Navigation */}
-      <Navigation/>
+      {/* Conteneur principal centré */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Navigation */}
+        <Navigation/>
 
-      {/* Hero Section */}
-      <HeroSection/>
+        {/* Hero Section */}
+        <HeroSection/>
 
-      {/* Features Section */}
-      <FeaturesSection/>      
+        {/* Features Section */}
+        <FeaturesSection/>      
 
-      {/* Testimonials */}
-      <Testimonials/>
+        {/* Testimonials */}
+        <Testimonials/>
 
-      {/* CTA Section */}
-      <CTA/>
-      {/* Footer */}
+        {/* CTA Section */}
+        <CTA/>
+      </div>
+      
+      {/* Footer (peut être en dehors pour occuper toute la largeur si besoin) */}
       <CustomFooter/>
     </div>
   );
