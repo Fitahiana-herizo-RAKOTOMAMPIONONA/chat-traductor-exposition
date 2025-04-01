@@ -2,7 +2,7 @@ import { FiDownload } from "react-icons/fi";
 
 const CTA = () => {
     return <div className="bg-blue-600">
-    <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
       <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
         <span className="block">Prêt à briser les barrières linguistiques?</span>
         <span className="block text-blue-200">Téléchargez ChatTraductor dès aujourd'hui.</span>

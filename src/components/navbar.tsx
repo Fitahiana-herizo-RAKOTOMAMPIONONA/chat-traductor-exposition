@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 const Navigation = () => {
     const [activeTab, setActiveTab] = useState('features');
     return <nav className="bg-white shadow-sm">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className=" mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-16 items-center">
         <div className="flex items-center">
           <img src="vite.svg" alt="Logo" className="h-8 w-auto" />

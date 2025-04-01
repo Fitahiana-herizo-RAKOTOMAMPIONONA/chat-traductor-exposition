@@ -3,7 +3,7 @@ import { FiGlobe, FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 const CustomFooter = () => {
   return (
     <footer className="bg-gray-800 text-gray-300">
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="mx-auto px-4 py-8">
         {/* Liens principaux */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo et copyright */}
