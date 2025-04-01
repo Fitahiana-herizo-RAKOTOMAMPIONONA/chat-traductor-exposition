@@ -1,4 +1,3 @@
-import React from 'react';
 import { FiGlobe, FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 const CustomFooter = () => {
