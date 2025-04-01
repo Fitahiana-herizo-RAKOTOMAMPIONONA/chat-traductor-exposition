@@ -1,13 +1,36 @@
-import './App.css'
+import './App.css';
+import CustomFooter from './components/customFooter';
+import HeroSection from './section/hero.section';
+import FeaturesSection from './section/future.section';
+import CTA from './section/cta.section';
+import Testimonials from './section/testimonials.section';
+import Navigation from './components/navbar';
 
 function App() {
   return (
-    <>
-      <footer className="text-center mt-4 text-2xl text-red-500">
-        &copy; 2025 Herizo. All rights reserved.
-      </footer>
-    </>
-  )
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-50">
+      {/* Conteneur principal centré */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Navigation */}
+        <Navigation/>
+
+        {/* Hero Section */}
+        <HeroSection/>
+
+        {/* Features Section */}
+        <FeaturesSection/>      
+
+        {/* Testimonials */}
+        <Testimonials/>
+
+        {/* CTA Section */}
+        <CTA/>
+      </div>
+      
+      {/* Footer (peut être en dehors pour occuper toute la largeur si besoin) */}
+      <CustomFooter/>
+    </div>
+  );
 }
 
-export default App
+export default App;
